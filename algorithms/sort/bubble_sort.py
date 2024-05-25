@@ -1,9 +1,16 @@
-def bubble_sort(arr) -> list[int]:
+def bubble_sort(arr) -> str:
     """Application of bubble sort algorithm using for loops"""
     for i in range(len(arr)):
         for j in range(i + 1, len(arr)):
             if arr[i] > arr[j]:
                 arr[i], arr[j] = arr[j], arr[i]
+
+    # ChatGPT code, similar to my logic but from the largest to smallest
+    # n = len(arr)
+    # for i in range(n):
+    #     for j in range(0, n-i-1):
+    #         if arr[j] > arr[j+1]:
+    #             arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
 
 if __name__ == "__main__":
