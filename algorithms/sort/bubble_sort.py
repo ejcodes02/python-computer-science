@@ -1,4 +1,4 @@
-def bubble_sort(arr) -> str:
+def bubble_sort(arr: list[int]) -> list[int]:
     """Application of bubble sort algorithm using for loops"""
     for i in range(len(arr)):
         for j in range(i + 1, len(arr)):
