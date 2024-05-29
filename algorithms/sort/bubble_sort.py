@@ -20,5 +20,5 @@ if __name__ == "__main__":
     # sample_array.sort()
     # print(sample_array)
 
-    """With Bubble sort algorithm"""
+    """With bubble sort algorithm"""
     print(bubble_sort(arr))
