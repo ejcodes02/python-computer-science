@@ -10,5 +10,5 @@ def selection_sort(arr: list[int]) -> list[int]:
     return arr
 
 if __name__ == "__main__":
-    sample_array = [64, 34, 25, 12, 22, 11, 90]
-    print(selection_sort(sample_array))
+    arr = [64, 34, 25, 12, 22, 11, 90]
+    print(selection_sort(arr))

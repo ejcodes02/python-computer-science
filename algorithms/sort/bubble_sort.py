@@ -15,10 +15,10 @@ def bubble_sort(arr: list[int]) -> list[int]:
 
 if __name__ == "__main__":
     """Basic implementation of sort in python using sorted or sort function"""
-    sample_array = [64, 34, 25, 12, 22, 11, 90]
+    arr = [64, 34, 25, 12, 22, 11, 90]
     # print(sorted(sample_array))
     # sample_array.sort()
     # print(sample_array)
 
     """With Bubble sort algorithm"""
-    print(bubble_sort(sample_array))
+    print(bubble_sort(arr))
